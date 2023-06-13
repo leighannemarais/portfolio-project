@@ -1,7 +1,53 @@
+:root {
+  --primary-font: Ubuntu;
+  --branding-color: #202020;
+}
 h1 {
-  font-family: Ubuntu;
+  line-height: 28px;
+  padding: 25px;
+}
+h2 {
+  font-weight: normal;
+  line-height: 84px;
+  padding-top: 30px;
+}
+h1,
+h2 {
+  font-family: var(--primary-font);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+body {
+  color: white;
 }
 p {
+  padding: 25px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0 200px;
+}
+.hero {
+  background: var(--branding-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+.hero h2 {
+  font-size: 24px;
+}
+.hero h1 {
+  font-size: 72px;
+}
+.btn-branding {
+  background: #ffffff;
+  border-radius: 50px;
   font-family: Poppins;
-  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 18px 40px;
+  line-height: 17px;
+  color: #272142;
+  font-weight: 700;
 }
