@@ -16,9 +16,11 @@ h2 {
   font-family: var(--primary-font);
   text-transform: uppercase;
   letter-spacing: 0.1em;
+  text-align: center;
 }
 body {
   color: white;
+  background-color: var(--branding-color);
 }
 p {
   padding: 25px;
@@ -28,10 +30,14 @@ p {
   font-weight: 400;
   margin: 0 200px;
 }
+
 .hero {
-  background: var(--branding-color);
+  background-image: url("../images/portfolio-images/1434.jpg");
   text-align: center;
   padding: 160px 20px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .hero h2 {
   font-size: 24px;
@@ -50,4 +56,13 @@ p {
   line-height: 17px;
   color: #272142;
   font-weight: 700;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+@media (max-width: 500px) {
+  p {
+    text-align: center;
+  }
 }
