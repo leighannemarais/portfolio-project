@@ -12,7 +12,8 @@ h2 {
   padding-top: 30px;
 }
 h1,
-h2 {
+h2,
+.navbar-brand {
   font-family: var(--primary-font);
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -60,6 +61,10 @@ p {
 .row {
   display: flex;
   flex-wrap: wrap;
+}
+.navigation-links {
+  font-weight: bold;
+  color: #272142;
 }
 @media (max-width: 500px) {
   p {
