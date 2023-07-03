@@ -13,12 +13,14 @@ h2 {
 }
 h1,
 h2,
+h5,
 .navbar-brand {
   font-family: var(--primary-font);
   text-transform: uppercase;
   letter-spacing: 0.1em;
   text-align: center;
 }
+
 body {
   color: white;
   background-color: var(--branding-color);
@@ -65,6 +67,22 @@ p {
 .navigation-links {
   font-weight: bold;
   color: #272142;
+}
+.contact-links {
+  text-align: center;
+}
+.contact-button {
+  text-align: center;
+}
+.linked-in-icon {
+  padding-right: 10px;
+}
+.instagram-icon {
+  padding-right: 10px;
+  padding-left: 5px;
+}
+.mail-icon {
+  padding-left: 10px;
 }
 @media (max-width: 500px) {
   p {
