@@ -84,6 +84,9 @@ p {
 .mail-icon {
   padding-left: 10px;
 }
+.about-content {
+  padding-left: 40px;
+}
 @media (max-width: 500px) {
   p {
     text-align: center;
