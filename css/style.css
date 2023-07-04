@@ -95,3 +95,8 @@ footer .social-links a {
     font-size: 36px;
   }
 }
+@media (max-width: 500px) {
+  h5 {
+    font-size: 14px;
+  }
+}
