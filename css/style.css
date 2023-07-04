@@ -26,12 +26,10 @@ body {
   background-color: var(--branding-color);
 }
 p {
-  padding: 25px;
   text-align: center;
   line-height: 30px;
   font-size: 18px;
   font-weight: 400;
-  margin: 0 200px;
 }
 a {
   color: cadetblue;
@@ -89,7 +87,7 @@ footer .social-links a {
 
 @media (max-width: 500px) {
   p {
-    text-align: center;
+    font-size: 16px;
   }
 }
 @media (max-width: 768px) {
