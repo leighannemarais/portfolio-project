@@ -35,7 +35,12 @@ p {
 }
 a {
   color: cadetblue;
+  transition: all 100ms ease-in-out;
 }
+a:hover {
+  color: #ffffff;
+}
+
 .hero {
   background-image: url("../images/portfolio-images/1434.jpg");
   text-align: center;
@@ -70,9 +75,6 @@ a {
   font-weight: bold;
   color: #272142;
 }
-.contact-links {
-  text-align: center;
-}
 .contact-button {
   text-align: center;
 }
@@ -80,6 +82,11 @@ a {
 .about-content {
   padding-left: 40px;
 }
+
+footer .social-links a {
+  margin: 0 20px;
+}
+
 @media (max-width: 500px) {
   p {
     text-align: center;
